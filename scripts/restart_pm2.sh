@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pm2 restart all --update-env
+sudo env PATH=$PATH:~/.pm2  restart all
 
