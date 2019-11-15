@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo env PATH=$PATH:~/.pm2  restart all
+sudo env PATH=$PATH:~/.pm2  startup upstart -u
 
