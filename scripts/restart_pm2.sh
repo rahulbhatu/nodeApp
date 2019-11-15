@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo env PATH=$PATH:~/.pm2  startup upstart -u
+/usr/local/bin/pm2 restart ~/index.js
 
