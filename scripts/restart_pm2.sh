@@ -1,4 +1,4 @@
 #!/bin/bash
 
-/usr/local/bin/pm2 restart ~/index.js
+/usr/local/bin/pm2 restart /opt/nodeApp/index.js
 
