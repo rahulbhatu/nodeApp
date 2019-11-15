@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo systemctl restart nginx.service
 
-pm2 start index.js 
+pm2 restart all 
