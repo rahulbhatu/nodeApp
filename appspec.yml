@@ -13,3 +13,7 @@ hooks:
     - location: scripts/restart_server.sh
       timeout: 180
       runas: root
+  ApplicationStart:
+    - location: scripts/restart_pm2.sh
+      timeout: 180
+      runas: root
