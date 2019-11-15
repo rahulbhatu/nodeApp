@@ -1,5 +1,5 @@
 #!/bin/bash
 
-/opt/nodeApp
+export PATH="$PATH:/opt/nodeApp"
 pm2 restart all
 
