@@ -16,4 +16,4 @@ hooks:
   ApplicationStart:
     - location: scripts/restart_pm2.sh
       timeout: 180
-      runas: root
+      runas: ubuntu
